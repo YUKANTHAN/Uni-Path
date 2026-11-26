@@ -9,4 +9,8 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  base: '/Uni-Path/',
+  build: {
+    outDir: 'docs',
+  },
 })
